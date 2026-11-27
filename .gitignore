@@ -1,0 +1,60 @@
+# Build artifacts
+/build/
+/out/
+/obj_dir/
+
+# Vivado generated directories
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.tmp/
+xsim.dir/
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.rpt
+*.pb
+*.wdb
+*.wcfg
+*.xpr
+
+# Simulation artifacts
+*.vcd
+*.fst
+*.vvp
+*.vpd
+*.ghw
+/results.xml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration
+.env
+*.lic
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
